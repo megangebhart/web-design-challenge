@@ -62,5 +62,26 @@ body {
       text-decoration: none;
       padding: 11px
     }
-  
+  }
+
+  #landing_photo {
+   float: left
+   width: 200px;
+   height: 200px;
+   margin_top: 20px;
+   margin_right: 20px;
+  }
+
+  .small_photos {
+    width: 150px; 
+    height: 150px;
+  }
+
+  .medium_photo {
+    width: 600px; 
+    height: 400px;
+  }
+
+  .container {
+    background-color: white;
   }
