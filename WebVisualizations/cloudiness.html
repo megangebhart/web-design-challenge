@@ -21,20 +21,20 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Data <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="data.html">Data <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="comparisons.html">Comparison</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Plots
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="hum">humdity</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item" href="humidity.html">Humdity</a>
+            <a class="dropdown-item" href="max_speed.html">Wind Speed</a>
+            <a class="dropdown-item" href="max_temp.html">Temperature</a>
+            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
           </div>
         </li>
       </ul>
@@ -43,37 +43,29 @@
 
 <body>
     <div class = "container">
-      <div class = "row">
-        <div class = "col-md-8">
+        <div class = "row">
+            <div class = "col-md-8">
 
-          <h1>Cloudiness</h1>
-          <hr />
-          <img src="images/fig3.png"  id = "cloudiness"/>
+             <h2>Cloudiness</h2>
+             <hr />
+             <img src="images/fig3.png"  id = "cloudiness"/>
 
-      
-           <!-- <div style="text-align: left"><img src="images/fig1.png" width=auto /></div> -->
-          <P> Different Words.</P>
-          <p>Add more words Add more words Add more words Add more words Add more words Add more words Add more words Add more words Add more words Add more words Add more words Add more words Add more words Add more words .
-          </P>
+             <p> Cloudiness does not correlate to the latitude of the location. There is a fairly even distribution of cloudiness at all latitudes; however, the most common percents are 0% or 90%. This shows that the weather can vary quite significantly despite similar latitudes.</P>
 
-        </div>
+            </div>
 
-
-
-
-
-        <div class = "col-md-4">
-            <section>
-                <h2>Summary: Latitude vs. X</h2>
-                <hr/>
-
+            <div class = "col-md-4">
+                <section>
+                    <h2>Summary: Latitude vs. X</h2>
+                    <hr/>
                 <div>
-                  <a href = "#">  <img src = "images/fig1.png" class = "small_photos" /></a>
-                  <a href = "#">  <img src = "images/fig2.png" class = "small_photos" /></a>
-                  <a href = "#">  <img src = "images/fig3.png" class = "small_photos" /></a>
-                  <a href = "#">  <img src = "images/fig4.png" class = "small_photos" /></a>
+                  <a href = "max_temp.html"><img src = "images/fig1.png" class = "small_photos" /></a>
+                  <a href = "humidity.html"><img src = "images/fig2.png" class = "small_photos" /></a>
+                  <a href = "cloudiness.html"><img src = "images/fig3.png" class = "small_photos" /></a>
+                  <a href = "max_speed.html"><img src = "images/fig4.png" class = "small_photos" /></a>
                 </div>
-            </section>
+                </section>
+            </div>
         </div>
-
-      </div>
+    </div>
+</body>    
